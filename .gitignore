@@ -1,0 +1,12 @@
+*.o
+main.cpp
+cmake_install.cmake
+CMakeCache.txt
+Makefile
+CMakeFiles/
+Testing/
+.idea/
+nanotekspice.cbp
+nanotekspice
+.cmake/
+tests/
