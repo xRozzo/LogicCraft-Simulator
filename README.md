@@ -1,4 +1,4 @@
-# LogicCraft Simulator: A Digital Logic Simulation Tool
+# NanoTekSpice: A Digital Logic Simulation Tool
 
 ## Overview
 
@@ -38,7 +38,7 @@ NanoTekSpice/
 To use LogicCraft Simulator, first compile the source code using CMake and then run the simulator with a circuit configuration file as an argument.
 
 ```bash
-./build/logic_craft examples/basic_and_gate.nts
+./build/NanoTekSpice examples/basic_and_gate.nts
 ```
 
 ### Compilation with CMake
