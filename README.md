@@ -6,26 +6,32 @@ LogicCraft Simulator is a powerful digital logic simulation tool designed for ed
 
 ## Project Structure
 
-NanoTekSpice/
-│
-├── build/                  # Compiled binaries and main executable
-├── sources/                # Source files for the simulator
-│   ├── components/         # Digital components (logic gates, memory, etc.)
-│   ├── parser/             # Configuration file parser
-│   ├── simulator/          # Simulation engine
-│   └── main.cpp            # Main entry point
-│
-├── include/                # Header files
-│   ├── components/         # Component headers
-│   ├── parser/             # Parser headers
-│   ├── simulator/          # Simulator headers
-│   └── nanotekspice.hpp    # Main header
-│
-├── examples/               # Example configuration files and circuits
-├── tests/                  # Inputs files for tests
-├── Makefile                # Compilation script
-└── README.md               # This file
+```bash
 
+NanoTekSpice/
+|
+├── build/                  # Compiled binaries and main executable
+|
+├── sources/                # Source files for the simulator
+|   ├── components/         # Digital components (logic gates, memory, etc.)
+|   ├── parser/             # Configuration file parser
+|   ├── simulator/          # Simulation engine
+|   └── main.cpp            # Main entry point
+|
+├── include/                # Header files
+|   ├── components/         # Component headers
+|   ├── parser/             # Parser headers
+|   ├── simulator/          # Simulator headers
+|   └── nanotekspice.hpp    # Main header
+|
+├── examples/               # Example configuration files and circuits
+|
+├── tests/                  # Inputs files for tests
+|
+├── Makefile                # Compilation script
+|
+└── README.md               # This file
+```
 
 ## Usage
 
