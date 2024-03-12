@@ -52,6 +52,8 @@ make
 
 ## Example configuration for a basic AND gate circuit
 
+```bash
+
 .chipsets:
 input a
 input b
@@ -62,6 +64,8 @@ output s
 a:1 and0:1
 b:1 and0:2
 and0:3 s:1
+
+```
 
 ### Output
 
