@@ -38,7 +38,7 @@ NanoTekSpice/
 To use LogicCraft Simulator, first compile the source code using CMake and then run the simulator with a circuit configuration file as an argument.
 
 ```bash
-./bin/nanotekspice examples/basic_and_gate.nts
+./build/logic_craft examples/basic_and_gate.nts
 ```
 
 ### Compilation with CMake
